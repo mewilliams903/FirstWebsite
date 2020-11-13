@@ -12,18 +12,12 @@ namespace ViewModelAssignment.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Student
+    public partial class Staff
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Student()
-        {
-            this.Courses = new HashSet<Course>();
-        }
-    
         public int Id { get; set; }
         public string Name { get; set; }
+        public int Salary { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Course> Courses { get; set; }
+        public virtual Teacher Teacher { get; set; }
     }
 }

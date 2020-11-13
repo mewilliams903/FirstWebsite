@@ -1,0 +1,2 @@
+C:\Users\macke\source\repos\ViewModelAssignment\ViewModelAssignment\obj\Debug\ViewModelAssignment.csprojAssemblyReference.cache
+C:\Users\macke\source\repos\ViewModelAssignment\ViewModelAssignment\obj\Debug\ViewModelAssignment.csproj.CoreCompileInputs.cache
